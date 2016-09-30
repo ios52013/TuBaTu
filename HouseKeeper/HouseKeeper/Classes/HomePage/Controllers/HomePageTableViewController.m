@@ -16,12 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //设置导航栏为透明
+    UIImage *image = [UIImage imageNamed:@"bg_clearImg"];
+   [self.navigationController.navigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsCompact];
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    //列表背景颜色
+    self.tableView.backgroundColor = [UIColor cyanColor];
 }
 
 - (void)didReceiveMemoryWarning {
