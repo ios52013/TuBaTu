@@ -15,6 +15,7 @@
 		85D49D1E1D9E004700BD6F06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85D49D1C1D9E004700BD6F06 /* LaunchScreen.storyboard */; };
 		85D49D291D9E004700BD6F06 /* HouseKeeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D49D281D9E004700BD6F06 /* HouseKeeperTests.m */; };
 		85D49D341D9E004700BD6F06 /* HouseKeeperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D49D331D9E004700BD6F06 /* HouseKeeperUITests.m */; };
+		85D49D4C1D9E1D7E00BD6F06 /* HomePageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D49D4B1D9E1D7E00BD6F06 /* HomePageTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		85D49D2F1D9E004700BD6F06 /* HouseKeeperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseKeeperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85D49D331D9E004700BD6F06 /* HouseKeeperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseKeeperUITests.m; sourceTree = "<group>"; };
 		85D49D351D9E004700BD6F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85D49D4A1D9E1D7E00BD6F06 /* HomePageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageTableViewController.h; sourceTree = "<group>"; };
+		85D49D4B1D9E1D7E00BD6F06 /* HomePageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 			children = (
 				85D49D111D9E004700BD6F06 /* AppDelegate.h */,
 				85D49D121D9E004700BD6F06 /* AppDelegate.m */,
+				85D49D411D9E186C00BD6F06 /* Classes */,
 				85D49D141D9E004700BD6F06 /* ViewController.h */,
 				85D49D151D9E004700BD6F06 /* ViewController.m */,
 				85D49D171D9E004700BD6F06 /* Main.storyboard */,
@@ -138,6 +142,79 @@
 				85D49D351D9E004700BD6F06 /* Info.plist */,
 			);
 			path = HouseKeeperUITests;
+			sourceTree = "<group>";
+		};
+		85D49D411D9E186C00BD6F06 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				85D49D421D9E188F00BD6F06 /* HomePage */,
+				85D49D431D9E18BB00BD6F06 /* PictureMap */,
+				85D49D441D9E18F500BD6F06 /* DecorationDiary */,
+				85D49D451D9E190D00BD6F06 /* NewHome */,
+				85D49D461D9E197000BD6F06 /* My */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		85D49D421D9E188F00BD6F06 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				85D49D491D9E1D5300BD6F06 /* Controllers */,
+				85D49D481D9E1D4700BD6F06 /* Views */,
+				85D49D471D9E1D3A00BD6F06 /* Model */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		85D49D431D9E18BB00BD6F06 /* PictureMap */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PictureMap;
+			sourceTree = "<group>";
+		};
+		85D49D441D9E18F500BD6F06 /* DecorationDiary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DecorationDiary;
+			sourceTree = "<group>";
+		};
+		85D49D451D9E190D00BD6F06 /* NewHome */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NewHome;
+			sourceTree = "<group>";
+		};
+		85D49D461D9E197000BD6F06 /* My */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		85D49D471D9E1D3A00BD6F06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85D49D481D9E1D4700BD6F06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		85D49D491D9E1D5300BD6F06 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				85D49D4A1D9E1D7E00BD6F06 /* HomePageTableViewController.h */,
+				85D49D4B1D9E1D7E00BD6F06 /* HomePageTableViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85D49D161D9E004700BD6F06 /* ViewController.m in Sources */,
+				85D49D4C1D9E1D7E00BD6F06 /* HomePageTableViewController.m in Sources */,
 				85D49D131D9E004700BD6F06 /* AppDelegate.m in Sources */,
 				85D49D101D9E004700BD6F06 /* main.m in Sources */,
 			);
